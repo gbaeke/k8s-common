@@ -10,7 +10,7 @@ spec:
       chart: nginx-ingress
       sourceRef:
         kind: HelmRepository
-        name: nginx
+        name: nginx-repo
   values:
     controller:
       publishService:
