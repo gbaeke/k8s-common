@@ -19,4 +19,4 @@ spec:
         enabled: true
   interval: 5m0s
   releaseName: redis
-  targetNamespace: default
+  targetNamespace: nginx-ingress
