@@ -18,5 +18,5 @@ spec:
       metrics:
         enabled: true
   interval: 5m0s
-  releaseName: redis
+  releaseName: nginx-ingress
   targetNamespace: nginx-ingress
