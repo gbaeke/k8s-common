@@ -2,7 +2,7 @@ apiVersion: spv.no/v1
 kind: AzureKeyVaultSecret
 metadata:
   name: secret-sync 
-  namespace: akv2k8s
+  namespace: flux-system
 spec:
   vault:
     name: gebakv # name of key vault
