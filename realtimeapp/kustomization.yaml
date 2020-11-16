@@ -5,7 +5,7 @@ namespace: realtimeapp
 resources:
 - redis.yaml
 - realtime.yaml
-- cluster-issuer-production.yaml
+- cluster-issuer-staging.yaml
 - service.yaml
 - ingress.yaml
 - namespace.yaml
