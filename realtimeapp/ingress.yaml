@@ -17,5 +17,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: realtimeapp
+          serviceName: realtime
           servicePort: 80
