@@ -12,8 +12,8 @@ spec:
         kind: HelmRepository
         name: bitnami
   valuesFrom:
-    - kind: Secret
-      name: cftoken
+  - kind: Secret
+    name: cftoken
   interval: 5m0s
   releaseName: externaldns
   targetNamespace: default
