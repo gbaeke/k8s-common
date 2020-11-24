@@ -8,3 +8,5 @@ FROM gitpod/workspace-full
 
 RUN brew install fluxcd/tap/flux
 RUN brew install azure-cli
+RUN brew install kubectl
+RUN brew install helm
