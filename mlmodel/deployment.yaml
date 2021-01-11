@@ -1,0 +1,30 @@
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mldodel-deployment
+  labels:
+    app: mlmodel
+spec:
+  selector:
+    matchLabels:
+      app: mlmodel
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mlmodel
+    spec:
+      containers:
+      - name: mlmodel
+        image: gebaml.azurecr.io/mnist:0.0.1
+        resources:
+          requests:
+            cpu: 500m
+            memory: 200Mi
+          limits:
+            cpu: 500m
+            memory: 200Mi
+        ports:
+        - containerPort: 80
