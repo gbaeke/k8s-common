@@ -17,5 +17,5 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: mlmodel
+          serviceName: mlmodel-svc
           servicePort: 80
